@@ -1,0 +1,994 @@
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="./favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" href="./assets/img/logo.png">
+    <link rel="manifest" href="./manifest.json">
+    <title>شركة التسهيلات التجارية - CFC</title>
+    <!-- <script defer="defer" src="./assets/js/main.js"></script> -->
+    <link href="./assets/css/main.css" rel="stylesheet">
+    
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <style>
+    undefined
+    </style>
+    <style type="text/css">
+    @keyframes spin-668344b5 {
+        0% {
+            transform: rotate(0deg)
+        }
+
+        to {
+            transform: rotate(1turn)
+        }
+    }
+    </style>
+    <style type="text/css">
+    :root {
+        --toastify-color-light: #fff;
+        --toastify-color-dark: #121212;
+        --toastify-color-info: #3498db;
+        --toastify-color-success: #07bc0c;
+        --toastify-color-warning: #f1c40f;
+        --toastify-color-error: #e74c3c;
+        --toastify-color-transparent: #ffffffb3;
+        --toastify-icon-color-info: var(--toastify-color-info);
+        --toastify-icon-color-success: var(--toastify-color-success);
+        --toastify-icon-color-warning: var(--toastify-color-warning);
+        --toastify-icon-color-error: var(--toastify-color-error);
+        --toastify-toast-width: 320px;
+        --toastify-toast-background: #fff;
+        --toastify-toast-min-height: 64px;
+        --toastify-toast-max-height: 800px;
+        --toastify-font-family: sans-serif;
+        --toastify-z-index: 9999;
+        --toastify-text-color-light: #757575;
+        --toastify-text-color-dark: #fff;
+        --toastify-text-color-info: #fff;
+        --toastify-text-color-success: #fff;
+        --toastify-text-color-warning: #fff;
+        --toastify-text-color-error: #fff;
+        --toastify-spinner-color: #616161;
+        --toastify-spinner-color-empty-area: #e0e0e0;
+        --toastify-color-progress-light: linear-gradient(90deg, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
+        --toastify-color-progress-dark: #bb86fc;
+        --toastify-color-progress-info: var(--toastify-color-info);
+        --toastify-color-progress-success: var(--toastify-color-success);
+        --toastify-color-progress-warning: var(--toastify-color-warning);
+        --toastify-color-progress-error: var(--toastify-color-error);
+        --toastify-color-progress-colored: #ddd
+    }
+
+    .Toastify__toast-container {
+        box-sizing: border-box;
+        color: #fff;
+        padding: 4px;
+        position: fixed;
+        transform: translate3d(0, 0, var(--toastify-z-index) px);
+        width: var(--toastify-toast-width);
+        z-index: var(--toastify-z-index)
+    }
+
+    .Toastify__toast-container--top-left {
+        left: 1em;
+        top: 1em
+    }
+
+    .Toastify__toast-container--top-center {
+        left: 50%;
+        top: 1em;
+        transform: translateX(-50%)
+    }
+
+    .Toastify__toast-container--top-right {
+        right: 1em;
+        top: 1em
+    }
+
+    .Toastify__toast-container--bottom-left {
+        bottom: 1em;
+        left: 1em
+    }
+
+    .Toastify__toast-container--bottom-center {
+        bottom: 1em;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    .Toastify__toast-container--bottom-right {
+        bottom: 1em;
+        right: 1em
+    }
+
+    @media only screen and (max-width:480px) {
+        .Toastify__toast-container {
+            left: 0;
+            margin: 0;
+            padding: 0;
+            width: 100vw
+        }
+
+        .Toastify__toast-container--top-center,
+        .Toastify__toast-container--top-left,
+        .Toastify__toast-container--top-right {
+            top: 0;
+            transform: translateX(0)
+        }
+
+        .Toastify__toast-container--bottom-center,
+        .Toastify__toast-container--bottom-left,
+        .Toastify__toast-container--bottom-right {
+            bottom: 0;
+            transform: translateX(0)
+        }
+
+        .Toastify__toast-container--rtl {
+            left: auto;
+            right: 0
+        }
+    }
+
+    .Toastify__toast {
+        border-radius: 4px;
+        box-shadow: 0 1px 10px 0 #0000001a, 0 2px 15px 0 #0000000d;
+        box-sizing: border-box;
+        cursor: pointer;
+        direction: ltr;
+        display: flex;
+        font-family: var(--toastify-font-family);
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        max-height: var(--toastify-toast-max-height);
+        min-height: var(--toastify-toast-min-height);
+        overflow: hidden;
+        padding: 8px;
+        position: relative;
+        z-index: 0
+    }
+
+    .Toastify__toast--rtl {
+        direction: rtl
+    }
+
+    .Toastify__toast-body {
+        align-items: center;
+        display: flex;
+        flex: 1 1 auto;
+        margin: auto 0;
+        padding: 6px;
+        white-space: pre-wrap
+    }
+
+    .Toastify__toast-body>div:last-child {
+        flex: 1
+    }
+
+    .Toastify__toast-icon {
+        display: flex;
+        flex-shrink: 0;
+        margin-inline-end: 10px;
+        width: 20px
+    }
+
+    .Toastify--animate {
+        animation-duration: .7s;
+        animation-fill-mode: both
+    }
+
+    .Toastify--animate-icon {
+        animation-duration: .3s;
+        animation-fill-mode: both
+    }
+
+    @media only screen and (max-width:480px) {
+        .Toastify__toast {
+            border-radius: 0;
+            margin-bottom: 0
+        }
+    }
+
+    .Toastify__toast-theme--dark {
+        background: var(--toastify-color-dark);
+        color: var(--toastify-text-color-dark)
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--default,
+    .Toastify__toast-theme--light {
+        background: var(--toastify-color-light);
+        color: var(--toastify-text-color-light)
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--info {
+        background: var(--toastify-color-info);
+        color: var(--toastify-text-color-info)
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--success {
+        background: var(--toastify-color-success);
+        color: var(--toastify-text-color-success)
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--warning {
+        background: var(--toastify-color-warning);
+        color: var(--toastify-text-color-warning)
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--error {
+        background: var(--toastify-color-error);
+        color: var(--toastify-text-color-error)
+    }
+
+    .Toastify__progress-bar-theme--light {
+        background: var(--toastify-color-progress-light)
+    }
+
+    .Toastify__progress-bar-theme--dark {
+        background: var(--toastify-color-progress-dark)
+    }
+
+    .Toastify__progress-bar--info {
+        background: var(--toastify-color-progress-info)
+    }
+
+    .Toastify__progress-bar--success {
+        background: var(--toastify-color-progress-success)
+    }
+
+    .Toastify__progress-bar--warning {
+        background: var(--toastify-color-progress-warning)
+    }
+
+    .Toastify__progress-bar--error {
+        background: var(--toastify-color-progress-error)
+    }
+
+    .Toastify__progress-bar-theme--colored.Toastify__progress-bar--default {
+        background: var(--toastify-color-progress-colored)
+    }
+
+    .Toastify__progress-bar-theme--colored.Toastify__progress-bar--error,
+    .Toastify__progress-bar-theme--colored.Toastify__progress-bar--info,
+    .Toastify__progress-bar-theme--colored.Toastify__progress-bar--success,
+    .Toastify__progress-bar-theme--colored.Toastify__progress-bar--warning {
+        background: var(--toastify-color-transparent)
+    }
+
+    .Toastify__close-button {
+        align-self: flex-start;
+        background: #0000;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        opacity: .7;
+        outline: none;
+        padding: 0;
+        transition: .3s ease
+    }
+
+    .Toastify__close-button--light {
+        color: #000;
+        opacity: .3
+    }
+
+    .Toastify__close-button>svg {
+        fill: currentcolor;
+        height: 16px;
+        width: 14px
+    }
+
+    .Toastify__close-button:focus,
+    .Toastify__close-button:hover {
+        opacity: 1
+    }
+
+    @keyframes Toastify__trackProgress {
+        0% {
+            transform: scaleX(1)
+        }
+
+        to {
+            transform: scaleX(0)
+        }
+    }
+
+    .Toastify__progress-bar {
+        bottom: 0;
+        height: 5px;
+        left: 0;
+        opacity: .7;
+        position: absolute;
+        transform-origin: left;
+        width: 100%;
+        z-index: var(--toastify-z-index)
+    }
+
+    .Toastify__progress-bar--animated {
+        animation: Toastify__trackProgress linear 1 forwards
+    }
+
+    .Toastify__progress-bar--controlled {
+        transition: transform .2s
+    }
+
+    .Toastify__progress-bar--rtl {
+        left: auto;
+        right: 0;
+        transform-origin: right
+    }
+
+    .Toastify__spinner {
+        animation: Toastify__spin .65s linear infinite;
+        border: 2px solid;
+        border-color: var(--toastify-spinner-color-empty-area);
+        border-radius: 100%;
+        border-right-color: var(--toastify-spinner-color);
+        box-sizing: border-box;
+        height: 20px;
+        width: 20px
+    }
+
+    @keyframes Toastify__bounceInRight {
+
+        0%,
+        60%,
+        75%,
+        90%,
+        to {
+            animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+        }
+
+        0% {
+            opacity: 0;
+            transform: translate3d(3000px, 0, 0)
+        }
+
+        60% {
+            opacity: 1;
+            transform: translate3d(-25px, 0, 0)
+        }
+
+        75% {
+            transform: translate3d(10px, 0, 0)
+        }
+
+        90% {
+            transform: translate3d(-5px, 0, 0)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+    @keyframes Toastify__bounceOutRight {
+        20% {
+            opacity: 1;
+            transform: translate3d(-20px, 0, 0)
+        }
+
+        to {
+            opacity: 0;
+            transform: translate3d(2000px, 0, 0)
+        }
+    }
+
+    @keyframes Toastify__bounceInLeft {
+
+        0%,
+        60%,
+        75%,
+        90%,
+        to {
+            animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+        }
+
+        0% {
+            opacity: 0;
+            transform: translate3d(-3000px, 0, 0)
+        }
+
+        60% {
+            opacity: 1;
+            transform: translate3d(25px, 0, 0)
+        }
+
+        75% {
+            transform: translate3d(-10px, 0, 0)
+        }
+
+        90% {
+            transform: translate3d(5px, 0, 0)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+    @keyframes Toastify__bounceOutLeft {
+        20% {
+            opacity: 1;
+            transform: translate3d(20px, 0, 0)
+        }
+
+        to {
+            opacity: 0;
+            transform: translate3d(-2000px, 0, 0)
+        }
+    }
+
+    @keyframes Toastify__bounceInUp {
+
+        0%,
+        60%,
+        75%,
+        90%,
+        to {
+            animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+        }
+
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 3000px, 0)
+        }
+
+        60% {
+            opacity: 1;
+            transform: translate3d(0, -20px, 0)
+        }
+
+        75% {
+            transform: translate3d(0, 10px, 0)
+        }
+
+        90% {
+            transform: translate3d(0, -5px, 0)
+        }
+
+        to {
+            transform: translateZ(0)
+        }
+    }
+
+    @keyframes Toastify__bounceOutUp {
+        20% {
+            transform: translate3d(0, -10px, 0)
+        }
+
+        40%,
+        45% {
+            opacity: 1;
+            transform: translate3d(0, 20px, 0)
+        }
+
+        to {
+            opacity: 0;
+            transform: translate3d(0, -2000px, 0)
+        }
+    }
+
+    @keyframes Toastify__bounceInDown {
+
+        0%,
+        60%,
+        75%,
+        90%,
+        to {
+            animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+        }
+
+        0% {
+            opacity: 0;
+            transform: translate3d(0, -3000px, 0)
+        }
+
+        60% {
+            opacity: 1;
+            transform: translate3d(0, 25px, 0)
+        }
+
+        75% {
+            transform: translate3d(0, -10px, 0)
+        }
+
+        90% {
+            transform: translate3d(0, 5px, 0)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+    @keyframes Toastify__bounceOutDown {
+        20% {
+            transform: translate3d(0, 10px, 0)
+        }
+
+        40%,
+        45% {
+            opacity: 1;
+            transform: translate3d(0, -20px, 0)
+        }
+
+        to {
+            opacity: 0;
+            transform: translate3d(0, 2000px, 0)
+        }
+    }
+
+    .Toastify__bounce-enter--bottom-left,
+    .Toastify__bounce-enter--top-left {
+        animation-name: Toastify__bounceInLeft
+    }
+
+    .Toastify__bounce-enter--bottom-right,
+    .Toastify__bounce-enter--top-right {
+        animation-name: Toastify__bounceInRight
+    }
+
+    .Toastify__bounce-enter--top-center {
+        animation-name: Toastify__bounceInDown
+    }
+
+    .Toastify__bounce-enter--bottom-center {
+        animation-name: Toastify__bounceInUp
+    }
+
+    .Toastify__bounce-exit--bottom-left,
+    .Toastify__bounce-exit--top-left {
+        animation-name: Toastify__bounceOutLeft
+    }
+
+    .Toastify__bounce-exit--bottom-right,
+    .Toastify__bounce-exit--top-right {
+        animation-name: Toastify__bounceOutRight
+    }
+
+    .Toastify__bounce-exit--top-center {
+        animation-name: Toastify__bounceOutUp
+    }
+
+    .Toastify__bounce-exit--bottom-center {
+        animation-name: Toastify__bounceOutDown
+    }
+
+    @keyframes Toastify__none {
+
+        0%,
+        60%,
+        75%,
+        90%,
+        to {
+            animation-duration: 0;
+            animation-timing-function: none
+        }
+
+        0% {
+            opacity: 1;
+            transform: translateZ(0)
+        }
+
+        to {
+            transform: translateZ(0)
+        }
+    }
+
+    .Toastify__none-enter--bottom-center,
+    .Toastify__none-enter--bottom-left,
+    .Toastify__none-enter--bottom-right,
+    .Toastify__none-enter--top-center,
+    .Toastify__none-enter--top-left,
+    .Toastify__none-enter--top-right {
+        animation-name: Toastify__none
+    }
+
+    @keyframes Toastify__zoomIn {
+        0% {
+            opacity: 0;
+            transform: scale3d(.3, .3, .3)
+        }
+
+        50% {
+            opacity: 1
+        }
+    }
+
+    @keyframes Toastify__zoomOut {
+        0% {
+            opacity: 1
+        }
+
+        50% {
+            opacity: 0;
+            transform: scale3d(.3, .3, .3)
+        }
+
+        to {
+            opacity: 0
+        }
+    }
+
+    .Toastify__zoom-enter {
+        animation-name: Toastify__zoomIn
+    }
+
+    .Toastify__zoom-exit {
+        animation-name: Toastify__zoomOut
+    }
+
+    @keyframes Toastify__flipIn {
+        0% {
+            animation-timing-function: ease-in;
+            opacity: 0;
+            transform: perspective(400px) rotateX(90deg)
+        }
+
+        40% {
+            animation-timing-function: ease-in;
+            transform: perspective(400px) rotateX(-20deg)
+        }
+
+        60% {
+            opacity: 1;
+            transform: perspective(400px) rotateX(10deg)
+        }
+
+        80% {
+            transform: perspective(400px) rotateX(-5deg)
+        }
+
+        to {
+            transform: perspective(400px)
+        }
+    }
+
+    @keyframes Toastify__flipOut {
+        0% {
+            transform: perspective(400px)
+        }
+
+        30% {
+            opacity: 1;
+            transform: perspective(400px) rotateX(-20deg)
+        }
+
+        to {
+            opacity: 0;
+            transform: perspective(400px) rotateX(90deg)
+        }
+    }
+
+    .Toastify__flip-enter {
+        animation-name: Toastify__flipIn
+    }
+
+    .Toastify__flip-exit {
+        animation-name: Toastify__flipOut
+    }
+
+    @keyframes Toastify__slideInRight {
+        0% {
+            transform: translate3d(110%, 0, 0);
+            visibility: visible
+        }
+
+        to {
+            transform: translateZ(0)
+        }
+    }
+
+    @keyframes Toastify__slideInLeft {
+        0% {
+            transform: translate3d(-110%, 0, 0);
+            visibility: visible
+        }
+
+        to {
+            transform: translateZ(0)
+        }
+    }
+
+    @keyframes Toastify__slideInUp {
+        0% {
+            transform: translate3d(0, 110%, 0);
+            visibility: visible
+        }
+
+        to {
+            transform: translateZ(0)
+        }
+    }
+
+    @keyframes Toastify__slideInDown {
+        0% {
+            transform: translate3d(0, -110%, 0);
+            visibility: visible
+        }
+
+        to {
+            transform: translateZ(0)
+        }
+    }
+
+    @keyframes Toastify__slideOutRight {
+        0% {
+            transform: translateZ(0)
+        }
+
+        to {
+            transform: translate3d(110%, 0, 0);
+            visibility: hidden
+        }
+    }
+
+    @keyframes Toastify__slideOutLeft {
+        0% {
+            transform: translateZ(0)
+        }
+
+        to {
+            transform: translate3d(-110%, 0, 0);
+            visibility: hidden
+        }
+    }
+
+    @keyframes Toastify__slideOutDown {
+        0% {
+            transform: translateZ(0)
+        }
+
+        to {
+            transform: translate3d(0, 500px, 0);
+            visibility: hidden
+        }
+    }
+
+    @keyframes Toastify__slideOutUp {
+        0% {
+            transform: translateZ(0)
+        }
+
+        to {
+            transform: translate3d(0, -500px, 0);
+            visibility: hidden
+        }
+    }
+
+    .Toastify__slide-enter--bottom-left,
+    .Toastify__slide-enter--top-left {
+        animation-name: Toastify__slideInLeft
+    }
+
+    .Toastify__slide-enter--bottom-right,
+    .Toastify__slide-enter--top-right {
+        animation-name: Toastify__slideInRight
+    }
+
+    .Toastify__slide-enter--top-center {
+        animation-name: Toastify__slideInDown
+    }
+
+    .Toastify__slide-enter--bottom-center {
+        animation-name: Toastify__slideInUp
+    }
+
+    .Toastify__slide-exit--bottom-left,
+    .Toastify__slide-exit--top-left {
+        animation-name: Toastify__slideOutLeft
+    }
+
+    .Toastify__slide-exit--bottom-right,
+    .Toastify__slide-exit--top-right {
+        animation-name: Toastify__slideOutRight
+    }
+
+    .Toastify__slide-exit--top-center {
+        animation-name: Toastify__slideOutUp
+    }
+
+    .Toastify__slide-exit--bottom-center {
+        animation-name: Toastify__slideOutDown
+    }
+
+    @keyframes Toastify__spin {
+        0% {
+            transform: rotate(0deg)
+        }
+
+        to {
+            transform: rotate(1turn)
+        }
+    }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="use-credentials">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swa">
+    <style id="qr-scanner-styles">
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <div dir="rtl" class="text-gray-800">
+            <header class="sticky top-0 z-50 bg-[#00A3E0] text-white">
+                <div class="mx-auto flex h-16 max-w-[1700px] items-center justify-between px-3 md:px-6">
+                    <div class="flex items-center gap-3"><a href="/"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1375_4937)">
+                                    <path d="M10.036 13.896C9.54699 13.5598 8.85274 13.5912 8.91547 12.8027C8.94683 12.4214 9.04662 12.2014 9.41156 12.0142C11.0809 11.156 12.7203 10.2472 14.401 9.3999C14.87 9.16211 15.0268 8.8888 15.0112 8.39682C14.9755 7.19833 14.9841 5.99847 15.0112 4.79997C15.0197 4.37633 14.9128 4.16314 14.4409 4.03741C12.5386 3.51809 10.5227 3.51809 8.62038 4.03741C8.21979 4.14537 8.10004 4.31073 8.10574 4.68927C8.12712 6.04629 8.12427 7.40468 8.10574 8.7617C8.09004 8.89374 8.11968 9.02709 8.19017 9.14152C8.26066 9.25595 8.36816 9.34522 8.49635 9.3958C9.27186 9.78254 10.0303 10.1994 10.8043 10.608C10.0516 11.3336 9.8321 11.376 8.99387 10.9209C8.31958 10.5547 7.36873 10.3838 7.04512 9.77024C6.7372 9.18944 6.94961 8.35583 6.94676 7.6329C6.94676 6.38794 6.96102 5.14435 6.93679 3.89939C6.92966 3.52494 7.04656 3.33772 7.42718 3.20653C10.2199 2.24308 12.9954 2.27588 15.7738 3.25709C16.1231 3.38008 16.2215 3.57141 16.2186 3.91169C16.2015 5.67595 16.1944 7.44158 16.2186 9.20584C16.2186 9.61582 16.0475 9.80578 15.7068 9.98207C14.1031 10.8143 12.5093 11.6616 10.9141 12.5048C10.1044 12.9284 10.1058 12.9312 10.036 13.896Z" fill="white"></path>
+                                    <path d="M11.9821 12.5881C12.3584 12.3749 12.5951 12.2287 12.8445 12.1043C13.4333 11.8105 13.9194 12.0838 13.9208 12.7234C13.9294 14.6011 13.9379 16.4774 13.9208 18.3537C13.9013 18.5291 13.9407 18.7058 14.0333 18.8582C14.1258 19.0106 14.2667 19.1307 14.4355 19.201C15.5284 19.7768 16.6099 20.3808 17.68 21.0131C18.0507 21.2304 18.2802 21.188 18.5952 20.9065C20.0212 19.6364 21.0591 18.0177 21.5975 16.2246C21.7229 15.8146 21.6659 15.5713 21.2439 15.35C20.1035 14.75 18.9816 14.12 17.8725 13.4668C17.5346 13.27 17.2823 13.3069 16.9672 13.4846C16.3158 13.8535 15.6386 14.1815 14.9814 14.5409C14.6507 14.7227 14.4967 14.7364 14.4768 14.2908C14.4526 13.7715 14.531 13.3616 15.1183 13.1812C15.2786 13.1371 15.4276 13.0618 15.5559 12.9598C16.8717 11.8324 18.102 12.077 19.4292 13.0213C20.4114 13.7196 21.5362 14.2362 22.6082 14.8142C22.9404 14.9946 23.0558 15.175 22.9774 15.5672C22.4328 18.2758 21.0244 20.4788 18.8162 22.2444C18.4299 22.5532 18.1376 22.5847 17.6929 22.3236C16.2202 21.4586 14.722 20.6345 13.218 19.8201C13.071 19.7552 12.9489 19.6478 12.8689 19.513C12.7889 19.3782 12.7549 19.2227 12.7718 19.0684C12.7889 17.2823 12.7633 15.4962 12.7889 13.71C12.7961 13.1948 12.7504 12.7671 11.9821 12.5881Z" fill="white"></path>
+                                    <path d="M12.237 14.7146C12.237 15.0767 12.237 15.3186 12.237 15.5591C12.2213 16.211 11.6426 16.5294 11.0367 16.211C9.31603 15.3063 7.59254 14.403 5.88472 13.4778C5.51264 13.2755 5.22325 13.2509 4.84833 13.4778C3.8205 14.0818 2.78127 14.6708 1.7121 15.2202C1.30724 15.4293 1.28442 15.6493 1.38849 16.0292C1.89098 17.8802 2.9328 19.5558 4.39215 20.8601C4.62879 21.0733 4.81269 21.1512 5.12346 20.9722C6.25821 20.318 7.40294 19.6803 8.55764 19.0589C8.68374 19.0026 8.78802 18.9094 8.85561 18.7929C8.92319 18.6763 8.95063 18.5422 8.93398 18.4098C8.9126 17.7101 8.94682 17.0077 8.92116 16.308C8.90405 15.827 9.07369 15.8557 9.45289 16.0224C9.9219 16.2301 10.1286 16.5021 10.083 17.0118C10.006 17.8399 10.3824 18.8212 9.94043 19.4716C9.51276 20.0839 8.55051 20.3558 7.81778 20.7699C6.89971 21.2865 5.96454 21.7716 5.06216 22.3169C4.7072 22.5342 4.49194 22.4781 4.19827 22.2485C1.97345 20.5193 0.484459 18.0703 0.0114028 15.3623C-0.0470451 15.0425 0.045612 14.869 0.336426 14.7091C1.87793 13.8636 3.41089 13.0068 4.93529 12.1385C5.24891 11.9595 5.47843 12.0019 5.77352 12.1645C7.36302 13.02 8.9682 13.844 10.5563 14.7009C11.0852 14.966 11.5827 15.2735 12.237 14.7146Z" fill="white"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1375_4937">
+                                        <rect width="23" height="20" fill="white" transform="translate(23 22.5) rotate(-180)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg></a></div>
+                    <nav class="hidden lg:flex items-center gap-4">
+                        <div class="relative group"><button class="px-3 py-2 rounded-md hover:bg-white/10">نبذة عن الشركة</button>
+                            <div class="absolute right-0 mt-2 hidden min-w-56 rounded-xl bg-white text-gray-800 shadow-xl group-hover:block">
+                                <div class="p-3 space-y-1"><a href="#" class="block rounded-lg px-3 py-2 hover:bg-gray-100">نبذة تاريخية</a><a href="#" class="block rounded-lg px-3 py-2 hover:bg-gray-100">الفريق الإداري</a><a href="#" class="block rounded-lg px-3 py-2 hover:bg-gray-100">حوكمة الشركات</a></div>
+                            </div>
+                        </div>
+                        <div class="relative group"><button class="px-3 py-2 rounded-md hover:bg-white/10">خدمات الشركة</button>
+                            <div class="absolute right-0 mt-2 hidden min-w-56 rounded-xl bg-white text-gray-800 shadow-xl group-hover:block">
+                                <div class="p-3 space-y-1"><a href="/loan" class="block rounded-lg px-3 py-2 hover:bg-gray-100">قرض نقدي</a><a href="/loan" class="block rounded-lg px-3 py-2 hover:bg-gray-100">قرض سيارة</a><a href="/loan" class="block rounded-lg px-3 py-2 hover:bg-gray-100">قرض سكني</a><a href="/loan" class="block rounded-lg px-3 py-2 hover:bg-gray-100">قرض تعليمي</a></div>
+                            </div>
+                        </div>
+                        <div class="relative group"><button class="px-3 py-2 rounded-md hover:bg-white/10">الأخبار والمعلومات المالية</button>
+                            <div class="absolute right-0 mt-2 hidden min-w-56 rounded-xl bg-white text-gray-800 shadow-xl group-hover:block">
+                                <div class="p-3 space-y-1"><a href="#" class="block rounded-lg px-3 py-2 hover:bg-gray-100">تقارير مالية</a><a href="#" class="block rounded-lg px-3 py-2 hover:bg-gray-100">نتائج الاجتماع</a></div>
+                            </div>
+                        </div>
+                        <div class="relative group"><button class="px-3 py-2 rounded-md hover:bg-white/10">إتصل بنا</button>
+                            <div class="absolute right-0 mt-2 hidden min-w-56 rounded-xl bg-white text-gray-800 shadow-xl group-hover:block">
+                                <div class="p-3 space-y-1"><a href="#" class="block rounded-lg px-3 py-2 hover:bg-gray-100">الفروع</a><a href="#" class="block rounded-lg px-3 py-2 hover:bg-gray-100">الأسئلة المشهورة</a></div>
+                            </div>
+                        </div><a href="#" class="rounded-md bg-white/10 px-4 py-2 text-sm hover:bg-white/20">English</a><a href="#" class="rounded-md bg-white px-4 py-2 text-sm font-medium text-[#00A3E0] hover:bg-gray-100">تسجيل الدخول</a>
+                    </nav><button class="lg:hidden rounded-lg bg-white/10 p-2"><img alt="menu" class="h-5 w-5 invert" src="./assets/img/menu.png"></button>
+                </div>
+            </header>
+            <main class="max-w-[1700px] mx-auto">
+                <section class="px-0 mt-4">
+                    <div class="relative w-full overflow-hidden">
+                        <div class="swiper swiper-initialized swiper-horizontal swiper-rtl w-full swiper-backface-hidden">
+                            <div class="swiper-wrapper" style="transition-duration: 300ms; transform: translate3d(7350px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-next" style="width: 1470px;" data-swiper-slide-index="4">
+                                    <div class="flex justify-center items-center w-full"><img alt="banner5" class=" w-[98%]               /* marge à gauche/droite */ h-auto max-h-[220px]         /* hauteur mobile */ sm:max-h-[300px] md:max-h-[420px] lg:max-h-[550px] rounded-3xl            object-contain         bg-white shadow-md transition-all duration-500 " draggable="false" src="./assets/img/5.jpeg"></div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="5" style="width: 1470px;">
+                                    <div class="flex justify-center items-center w-full"><img alt="banner7" class=" w-[98%]               /* marge à gauche/droite */ h-auto max-h-[220px]         /* hauteur mobile */ sm:max-h-[300px] md:max-h-[420px] lg:max-h-[550px] rounded-3xl            object-contain         bg-white shadow-md transition-all duration-500 " draggable="false" src="./assets/img/7.jpeg"></div>
+                                </div>
+                                <div class="swiper-slide" style="width: 1470px;" data-swiper-slide-index="0">
+                                    <div class="flex justify-center items-center w-full"><img alt="logo_banner" class=" w-[98%]               /* marge à gauche/droite */ h-auto max-h-[220px]         /* hauteur mobile */ sm:max-h-[300px] md:max-h-[420px] lg:max-h-[550px] rounded-3xl            object-contain         bg-white shadow-md transition-all duration-500 " draggable="false" src="./assets/img/1.jpg"></div>
+                                </div>
+                                <div class="swiper-slide" style="width: 1470px;" data-swiper-slide-index="1">
+                                    <div class="flex justify-center items-center w-full"><img alt="house_campaign_banner" class=" w-[98%]               /* marge à gauche/droite */ h-auto max-h-[220px]         /* hauteur mobile */ sm:max-h-[300px] md:max-h-[420px] lg:max-h-[550px] rounded-3xl            object-contain         bg-white shadow-md transition-all duration-500 " draggable="false" src="./assets/img/2.jpeg"></div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-prev" style="width: 1470px;" data-swiper-slide-index="2">
+                                    <div class="flex justify-center items-center w-full"><img alt="edu_campaign_banner" class=" w-[98%]               /* marge à gauche/droite */ h-auto max-h-[220px]         /* hauteur mobile */ sm:max-h-[300px] md:max-h-[420px] lg:max-h-[550px] rounded-3xl            object-contain         bg-white shadow-md transition-all duration-500 " draggable="false" src="./assets/img/3.jpeg"></div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" style="width: 1470px;" data-swiper-slide-index="3">
+                                    <div class="flex justify-center items-center w-full"><img alt="banner4" class=" w-[98%]               /* marge à gauche/droite */ h-auto max-h-[220px]         /* hauteur mobile */ sm:max-h-[300px] md:max-h-[420px] lg:max-h-[550px] rounded-3xl            object-contain         bg-white shadow-md transition-all duration-500 " draggable="false" src="./assets/img/4.jpeg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom-pagination text-center mt-2 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+                    </div>
+                </section>
+                <section id="homeServices" class="px-4 lg:px-12 py-8">
+                    <div class="mx-auto max-w-[1700px] bg-[#F3F4F6] rounded-3xl p-6 md:p-8">
+                        <p class="text-[#00A3E0] font-semibold text-center mb-4">أحسب قرضك</p>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6">
+                            <article class="cursor-pointer bg-white rounded-lg shadow-md hover:shadow-lg transition hover:scale-[0.98] flex flex-col items-center justify-center p-4">
+                                <div class="relative w-[100px] h-[86px] overflow-hidden rounded-md"><img alt="قرض نقدي" class="w-full h-full object-cover" src="./assets/img/cash-loan.jpg"></div>
+                                <p class="mt-3 text-sm font-medium text-[#0f172a]">قرض نقدي</p>
+                            </article>
+                            <article class="cursor-pointer bg-white rounded-lg shadow-md hover:shadow-lg transition hover:scale-[0.98] flex flex-col items-center justify-center p-4">
+                                <div class="relative w-[100px] h-[86px] overflow-hidden rounded-md"><img alt="قرض سياره" class="w-full h-full object-cover" src="./assets/img/auto-loan.jpg"></div>
+                                <p class="mt-3 text-sm font-medium text-[#0f172a]">قرض سياره</p>
+                            </article>
+                            <article class="cursor-pointer bg-white rounded-lg shadow-md hover:shadow-lg transition hover:scale-[0.98] flex flex-col items-center justify-center p-4">
+                                <div class="relative w-[100px] h-[86px] overflow-hidden rounded-md"><img alt="قرض الشركات" class="w-full h-full object-cover" src="./assets/img/bus.jpg"></div>
+                                <p class="mt-3 text-sm font-medium text-[#0f172a]">قرض الشركات</p>
+                            </article>
+                            <article class="cursor-pointer bg-white rounded-lg shadow-md hover:shadow-lg transition hover:scale-[0.98] flex flex-col items-center justify-center p-4">
+                                <div class="relative w-[100px] h-[86px] overflow-hidden rounded-md"><img alt="قرض المتقاعدين" class="w-full h-full object-cover" src="./assets/img/retiree.jpg"></div>
+                                <p class="mt-3 text-sm font-medium text-[#0f172a]">قرض المتقاعدين</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="mt-8 lg:flex items-center justify-between gap-8 bg-[#F3F4F6] rounded-3xl p-6">
+                        <div class="lg:w-[70%] space-y-4">
+                            <h3 class="text-xl font-semibold">لماذا تختارنا ؟</h3>
+                            <p class="text-md">مرحباً بكم في شركة التسهيلات، حيث رضاؤكم هو أولويتنا. اكتشف لماذا اختيارنا هو القرار الأفضل لتوفير جميع احتياجاتك الائتمانية.</p><a href="/" class="text-[#00A3E0] underline underline-offset-4">اقرأ المزيد &gt;</a>
+                        </div>
+                        <div class="mt-6 lg:mt-0 lg:w-[30%]"><img alt="cover" class="rounded-2xl w-full" src="./assets/img/section1-cover-ar.png"></div>
+                    </div>
+                    <div class="mt-10 bg-[#F3F4F6] rounded-3xl p-6 pb-4">
+                        <div class="text-center mb-6">
+                            <p class="text-[#00A3E0] font-semibold">عروض التسهيلات</p>
+                            <p class="text-lg">آخر العروض</p>
+                        </div>
+                        <div class="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto md:overflow-visible scroll-smooth snap-x snap-mandatory">
+                            <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden min-w-[85%] md:min-w-0 snap-start">
+                                <div class="w-full overflow-hidden flex justify-center items-center"><img alt="عرض القروض التعليمية" class="w-full h-[220px] md:h-[360px] object-cover rounded-t-2xl transition-transform duration-500 hover:scale-[1.02]" src="./assets/img/learn.jpeg"></div>
+                                <div class="flex items-center justify-between px-4 py-3">
+                                    <p class="font-medium text-sm text-[#0f172a]">عرض القروض التعليمية</p><a href="/" class="rounded-md bg-[#00A3E0] px-3 py-1.5 text-white text-sm">عرض المزيد</a>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden min-w-[85%] md:min-w-0 snap-start">
+                                <div class="w-full overflow-hidden flex justify-center items-center"><img alt="عرض القروض الإسكانية" class="w-full h-[220px] md:h-[360px] object-cover rounded-t-2xl transition-transform duration-500 hover:scale-[1.02]" src="./assets/img/home.jpeg"></div>
+                                <div class="flex items-center justify-between px-4 py-3">
+                                    <p class="font-medium text-sm text-[#0f172a]">عرض القروض الإسكانية</p><a href="/" class="rounded-md bg-[#00A3E0] px-3 py-1.5 text-white text-sm">عرض المزيد</a>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden min-w-[85%] md:min-w-0 snap-start">
+                                <div class="w-full overflow-hidden flex justify-center items-center"><img alt="عرض قروض السيارات" class="w-full h-[220px] md:h-[360px] object-cover rounded-t-2xl transition-transform duration-500 hover:scale-[1.02]" src="./assets/img/car.jpeg"></div>
+                                <div class="flex items-center justify-between px-4 py-3">
+                                    <p class="font-medium text-sm text-[#0f172a]">عرض قروض السيارات</p><a href="/" class="rounded-md bg-[#00A3E0] px-3 py-1.5 text-white text-sm">عرض المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="mt-10 bg-[#F3F4F6]">
+                <div class="mx-auto max-w-[1700px] p-6 lg:p-8">
+                    <div class="grid gap-8 lg:grid-cols-4">
+                        <div><a href="#" class="font-medium text-black">نبذة عن الشركة</a>
+                            <div class="mt-2 space-y-1 text-sm"><a class="block hover:underline" href="#">نبذة تاريخية</a><a class="block hover:underline" href="#">كلمة نائب الرئيس</a><a class="block hover:underline" href="#">أعضاء مجلس الإدارة</a><a class="block hover:underline" href="#">الفريق الإداري</a><a class="block hover:underline" href="#">حوكمة الشركات</a><a class="block hover:underline" href="#">مكافحة غسل الأموال</a><a class="block hover:underline" href="#">دليل حماية العملاء</a></div>
+                        </div>
+                        <div><a href="#homeServices" class="font-medium text-black">خدمات الشركة</a>
+                            <div class="mt-2 space-y-1 text-sm"><a class="block hover:underline" href="#homeServices">قرض نقدي</a><a class="block hover:underline" href="#homeServices">قرض سياره</a><a class="block hover:underline" href="#homeServices">قرض اسكاني</a><a class="block hover:underline" href="#homeServices">قرض تعليمي</a><a class="block hover:underline" href="#homeServices">معدات بحرية</a><a class="block hover:underline" href="#homeServices">قرض أثاث</a><a class="block hover:underline" href="#homeServices">أجهزة كهربائية</a><a class="block hover:underline" href="#homeServices">قرض تجاري</a></div>
+                        </div>
+                        <div><a href="#" class="font-medium text-black">الأخبار والمعلومات المالية</a>
+                            <div class="mt-2 space-y-1 text-sm"><a class="block hover:underline" href="#">تقارير مالية</a><a class="block hover:underline" href="#">نتائج الاجتماع</a></div>
+                        </div>
+                        <div><a href="#" class="font-medium text-black">إتصل بنا</a>
+                            <div class="mt-2 space-y-1 text-sm"><a class="block hover:underline" href="#">شكاوي العملاء</a><a class="block hover:underline" href="#">فروعنا</a><a class="block hover:underline" href="#">الأسئلة المشهورة</a></div>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+                        <div>
+                            <div class="font-medium">تواصل معنا</div>
+                            <div class="mt-2 flex gap-2"><img width="32" height="32" alt="ig" src="./assets/img/instagram.png"><img width="32" height="32" alt="fb" src="./assets/img/facebook.png"><img width="32" height="32" alt="tw" src="./assets/img/twitter.png"><img width="32" height="32" alt="yt" src="./assets/img/youtube.png"><img width="32" height="32" alt="in" src="./assets/img/linkedin.png"></div>
+                        </div>
+                        <div>
+                            <div class="font-medium">اتصل بنا</div>
+                            <div class="mt-2 flex items-center gap-2"><img width="32" height="32" alt="wa" src="./assets/img/whatsapp.png"><img width="32" height="32" alt="mail" src="./assets/img/email.png"><img width="32" height="32" alt="phone" src="./assets/img/phone.png"></div>
+                        </div>
+                        <div>
+                            <div class="font-medium">حمل التطبيق</div>
+                            <div class="mt-2 flex gap-2"><img width="120" height="40" alt="appstore" src="./assets/img/app-store.png"><img width="120" height="40" alt="playstore" src="./assets/img/play-store.png"></div>
+                        </div>
+                    </div>
+                    <div class="mt-6 border-t pt-3 text-center text-sm">© 2025 Commercial Facilities CO. All rights are reserved.</div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div id="2fa-auth-scan-qr"></div>
+</body>
+
+</html>
